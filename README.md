@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Web Programming Mini Project - Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> **Mini Project Submission**
+>
+> Course: Web Programming
+> Submitted By: Sahil Dhruv Bachu
+> Registration Number: 23BCE2283
+> Institution: Vellore Institute of Technology (VIT)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## About The Project
 
-### `npm start`
+This repository contains the source code for a simple, minimalist personal portfolio website. It was developed as a mini-project requirement for the Web Programming course at VIT.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The primary goal of this project was to apply fundamental concepts of web development using **ReactJS**. It demonstrates the use of:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+*   React Components (functional components)
+*   JSX for structuring UI
+*   React State (`useState` hook) for managing component data
+*   React Props for passing data between components
+*   Basic Forms with various input types (text, checkboxes, radio buttons, select, textarea)
+*   Event Handling (`onClick`, `onChange`, etc.)
+*   Basic CSS for styling (using an external stylesheet)
 
-### `npm test`
+### Pages Included:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The portfolio website features the following sections:
 
-### `npm run build`
+1.  **Home:** A brief introduction about me.
+2.  **Skills:** A showcase of technical skills relevant to web development.
+3.  **Socials:** Links to connect via social media or professional platforms.
+4.  **Contact:** A functional contact form for inquiries.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+*   **ReactJS:** JavaScript library for building user interfaces.
+*   **JavaScript (ES6+):** Core programming language for logic and interactivity.
+*   **CSS3:** For styling the application with a modern theme.
+*   **HTML5:** Structure defined within JSX.
+*   **Git & GitHub:** For version control and code hosting.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+To run this project locally on your machine:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/SahilBachu/web-project-vit.git
+    ```
+2.  **Navigate into the project directory:**
+    ```bash
+    cd web-project-vit
+    ```
+3.  **Install the necessary dependencies:**
+    ```bash
+    npm install
+    # or if you use yarn:
+    # yarn install
+    ```
+4.  **Start the local development server:**
+    ```bash
+    npm start
+    # or if you use yarn:
+    # yarn start
+    ```
+5.  Open your web browser and navigate to `http://localhost:3000` (or the port specified in your terminal).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project serves as a practical application of the concepts learned in the introductory Web Programming course.
